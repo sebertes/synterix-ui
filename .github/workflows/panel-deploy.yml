@@ -40,3 +40,4 @@ jobs:
           publish_dir: ./packages/synterix-panels/build
           publish_branch: gh-pages
           force_orphan: true
+
