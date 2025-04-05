@@ -45,11 +45,10 @@
             <div class="section">
                 <div class="block colum-1">
                     <div class="field">
-                        <Input label="Username" name="username" type="text" placeholder="input username" value="admin"/>
+                        <Input label="Username" name="username" type="text" placeholder="input username"/>
                     </div>
                     <div class="field">
-                        <Input label="Password" name="password" type="password" placeholder="input password"
-                               value="admin"/>
+                        <Input label="Password" name="password" type="password" placeholder="input password"/>
                     </div>
                 </div>
                 {#if error}

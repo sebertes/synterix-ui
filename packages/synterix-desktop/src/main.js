@@ -56,5 +56,5 @@ app.whenReady().then(async () => {
     await mainWindow.loadURL(proxyManager.getPageHost());
 })
 app.on('window-all-closed', function () {
-    if (process.platform !== 'darwin') app.quit()
+    app.quit();
 })

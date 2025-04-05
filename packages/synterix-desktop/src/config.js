@@ -1,5 +1,5 @@
 export const Config = {
-    pageUrl: "http://localhost:5173",
+    pageUrl: "http://panels.synterix.cloud",
     devTools: false,
     clearStorage: false
 }

@@ -34,21 +34,21 @@
       "!**/node_modules/**/*"
     ],
     "mac": {
-      "icon": "icon/logo.png",
+      "icon": "icon/logo.icns",
       "target": [
         "dmg",
         "zip"
       ]
     },
     "win": {
-      "icon": "icon/logo.png",
+      "icon": "icon/logo.ico",
       "target": [
         "nsis",
         "portable"
       ]
     },
     "linux": {
-      "icon": "icon/logo.png",
+      "icon": "icon/logo-linux.png",
       "target": [
         "AppImage",
         "deb"
