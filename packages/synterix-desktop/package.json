@@ -13,6 +13,11 @@
     "package": "electron-builder --dir",
     "release": "electron-builder --publish always"
   },
+  "author": {
+    "name": "Sebeters",
+    "email": "synterix@qq.com"
+  },
+  "homepage": "https://synterix.cloud",
   "build": {
     "productName": "synterix",
     "artifactName": "synterix-${os}-${arch}-${version}.${ext}",
@@ -51,7 +56,6 @@
     }
   },
   "keywords": [],
-  "author": "sebertes",
   "license": "MIT",
   "devDependencies": {
     "electron": "^34.2.0",
