@@ -11,24 +11,15 @@
     "build:darwin-intel": "electron-builder --mac --x64"
   },
   "build": {
-    "productName": "janet",
-    "artifactName": "janet-${os}-${arch}-${version}.${ext}",
-    "appId": "tech.dllc.janet",
+    "productName": "synterix",
+    "artifactName": "synterix-${os}-${arch}-${version}.${ext}",
+    "appId": "synterix.cloud.synterix",
     "directories": {
       "output": "build"
     },
-    "copyright": "Copyright © 2022 dllc.tech All Rights Reserved",
+    "copyright": "Copyright © 2025 sebertes All Rights Reserved",
     "files": [
       "src/**/*"
-    ],
-    "electronDownload": {
-      "mirror": "https://registry.npmmirror.com/-/binary/electron/"
-    },
-    "extraResources": [
-      {
-        "from": "ffmpeg/${os}/${arch}/",
-        "to": "ffmpeg/${os}/${arch}/"
-      }
     ],
     "dmg": {
       "contents": [
@@ -46,8 +37,8 @@
       ]
     },
     "mac": {
-      "category": "tech.dllc.janet",
-      "identity": "janet",
+      "category": "synterix.cloud.synterix",
+      "identity": "synterix",
       "hardenedRuntime": true,
       "gatekeeperAssess": false,
       "icon": "icon/logo.png",
