@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "start": "./node_modules/.bin/electron .",
+    "start": "./node_modules/.bin/electron ",
     "postinstall": "node ./node_modules/electron/install.js",
     "build:darwin-arm": "electron-builder --mac --arm64",
     "build:darwin-intel": "electron-builder --mac --x64"

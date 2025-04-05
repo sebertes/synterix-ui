@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "npm run dev -w synterix-panels -- --open",
-    "build": "npm run build -w synterix-panels",
-    "preview": "npm run preview -w synterix-panels",
-    "start": "npm run start -w synterix-desktop",
+    "dev": "npm run dev -w packages/synterix-panels -- --open",
+    "build": "npm run build -w packages/synterix-panels",
+    "preview": "npm run preview -w packages/synterix-panels",
+    "start": "npm run start -w packages/synterix-desktop",
     "dev-pages": "npm run dev -w synterix-pages -- --open",
     "build-pages": "npm run build -w synterix-pages",
     "preview-pages": "npm run preview -w synterix-pages"
