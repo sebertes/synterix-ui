@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{t,a as p}from"../chunks/DU17d604.js";import"../chunks/BNMsK8YA.js";var a=t("<div>Error</div>");function v(r){var o=a();p(r,o)}export{v as component};

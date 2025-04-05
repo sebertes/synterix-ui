@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as e,b as n}from"../chunks/QwNgEtIe.js";import{K as r}from"../chunks/Bc18UfCz.js";function u(a,t){e(t,!0),r(a,{get kind(){return t.data.kind},get resourceName(){return t.data.name},get action(){return t.data.action}}),n()}export{u as component};

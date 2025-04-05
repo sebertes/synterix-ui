@@ -1,0 +1,1 @@
+import{L as l}from"../chunks/Chthrq7D.js";const o=async({params:e})=>(e.cluster,{kind:e.kind||""}),t=Object.freeze(Object.defineProperty({__proto__:null,load:o},Symbol.toStringTag,{value:"Module"}));export{l as component,t as universal};

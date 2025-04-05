@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as i,b as n}from"../chunks/QwNgEtIe.js";import{S as p}from"../chunks/WvwBM8_9.js";import{o as e}from"../chunks/DPTXRTMs.js";function u(o,t){i(t,!0);let{slug:r}=t.data;e.hasKey("centerTunnelUrl")||e.redirect("/setting"),p(o,{key:r}),n()}export{u as component};
