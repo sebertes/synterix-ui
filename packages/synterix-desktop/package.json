@@ -49,8 +49,8 @@
     }
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "sebertes",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^34.2.0"
   },

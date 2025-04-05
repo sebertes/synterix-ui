@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "author": "sebertes",
+  "license": "MIT",
   "scripts": {
     "dev": "./node_modules/.bin/vite dev",
     "build": "./node_modules/.bin/vite build",
