@@ -1,0 +1,74 @@
+{
+  "name": "synterix-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "postinstall": "node ./node_modules/electron/install.js",
+    "build:darwin-arm": "electron-builder --mac --arm64",
+    "build:darwin-intel": "electron-builder --mac --x64"
+  },
+  "build": {
+    "productName": "janet",
+    "artifactName": "janet-${os}-${arch}-${version}.${ext}",
+    "appId": "tech.dllc.janet",
+    "directories": {
+      "output": "build"
+    },
+    "copyright": "Copyright © 2022 dllc.tech All Rights Reserved",
+    "files": [
+      "src/**/*"
+    ],
+    "electronDownload": {
+      "mirror": "https://registry.npmmirror.com/-/binary/electron/"
+    },
+    "extraResources": [
+      {
+        "from": "ffmpeg/${os}/${arch}/",
+        "to": "ffmpeg/${os}/${arch}/"
+      }
+    ],
+    "dmg": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "mac": {
+      "category": "tech.dllc.janet",
+      "identity": "janet",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "icon": "icon/logo.png",
+      "target": [
+        "zip"
+      ],
+      "darkModeSupport": true
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.2.0"
+  },
+  "dependencies": {
+    "electron-localstorage": "^1.0.5",
+    "electron-store": "^10.0.1",
+    "express": "^4.21.2",
+    "got": "^14.4.6",
+    "http-proxy-middleware": "^3.0.3",
+    "ws": "^8.18.0"
+  }
+}
