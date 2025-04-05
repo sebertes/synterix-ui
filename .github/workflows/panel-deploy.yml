@@ -23,13 +23,12 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install cnpm and dependencies
-          run: |
-            npm install -g cnpm --registry=https://registry.npmmirror.com
-            cnpm install
+      - name: Install dependencies
+        run: npm i
+        working-directory: ./packages/synterix-panels
 
       - name: Build SvelteKit
-        run: cnpm run build
+        run: npm run build
         working-directory: ./packages/synterix-panels
         env:
           CI: true
